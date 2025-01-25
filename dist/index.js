@@ -1,0 +1,2 @@
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});var jsxRuntime=require('react/jsx-runtime');var c=({text:t,fontSize:e,color:p})=>jsxRuntime.jsx("div",{children:jsxRuntime.jsx("h1",{style:{fontSize:`${e?e+"rem":"1rem"}`,color:p},children:t})}),o=c;exports.Ticker=o;exports.default=o;//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.js.map

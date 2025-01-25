@@ -1,0 +1,2 @@
+import {jsx}from'react/jsx-runtime';var c=({text:t,fontSize:e,color:p})=>jsx("div",{children:jsx("h1",{style:{fontSize:`${e?e+"rem":"1rem"}`,color:p},children:t})}),o=c;export{o as Ticker,o as default};//# sourceMappingURL=index.mjs.map
+//# sourceMappingURL=index.mjs.map
