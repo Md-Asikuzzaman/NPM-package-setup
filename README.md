@@ -2,6 +2,8 @@
 
 A simple and customizable **Next.js/React.js** avatar component that displays user initials, an image, or a fallback default avatar.
 
+<img src="https://raw.githubusercontent.com/Md-Asikuzzaman/next-avatar/refs/heads/main/docs/example.png"/>
+
 ## Installation
 
 You can install the package using npm or yarn or pnpm:

@@ -1,5 +1,5 @@
 {
-  "name": "next-avatar-test",
+  "name": "next-avatar",
   "version": "1.0.0",
   "description": "A lightweight and customizable React avatar component for Next.js applications, supporting initials, images, and fallback options.",
   "main": "dist/index.js",
