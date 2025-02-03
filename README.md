@@ -1,4 +1,4 @@
-# Next Avatar👤
+# next-avatar👤
 
 A simple and customizable **Next.js/React.js** avatar component that displays user initials, an image, or a fallback default avatar.
 
@@ -49,16 +49,16 @@ export default App;
 
 ## Props
 
-| Prop           | Type                  | Default                      | Description                                            |
-| -------------- | --------------------- | ---------------------------- | ------------------------------------------------------ |
-| `name`         | `string`              | `''`                         | The name used to generate initials.                    |
-| `src`          | `string`              | `''`                         | The image source URL.                                  |
-| `size`         | `number`              | `50`                         | The avatar size (width & height).                      |
-| `color`        | `string`              | `'#fff'`                     | The text color for initials.                           |
-| `fontSize`     | `string`              | `'1em'`                      | The font size for initials.                            |
-| `borderRadius` | `string`              | `'50%'`                      | The border radius of the avatar.                       |
-| `style`        | `React.CSSProperties` | `{}`                         | Additional inline styles.                              |
-| `defaultSrc`   | `string`              | `'https://i.pravatar.cc/50'` | Fallback image URL when no name or source is provided. |
+| Prop           | Type                  | Default                       | Description                                            |
+| -------------- | --------------------- | ----------------------------- | ------------------------------------------------------ |
+| `name`         | `string`              | `''`                          | The name used to generate initials.                    |
+| `src`          | `string`              | `''`                          | The image source URL.                                  |
+| `size`         | `number`              | `50`                          | The avatar size (width & height).                      |
+| `color`        | `string`              | `'#fff'`                      | The text color for initials.                           |
+| `fontSize`     | `string`              | `'1em'`                       | The font size for initials.                            |
+| `borderRadius` | `string`              | `'50%'`                       | The border radius of the avatar.                       |
+| `style`        | `React.CSSProperties` | `{}`                          | Additional inline styles.                              |
+| `defaultSrc`   | `string`              | `'https://i.pravatar.cc/100'` | Fallback image URL when no name or source is provided. |
 
 ## Features
 
