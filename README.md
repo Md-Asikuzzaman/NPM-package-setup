@@ -1,4 +1,4 @@
-# 😊Next Avatar
+# Next Avatar👤
 
 A simple and customizable **Next.js/React.js** avatar component that displays user initials, an image, or a fallback default avatar.
 
