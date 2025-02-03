@@ -6,6 +6,8 @@ A simple and customizable **Next.js/React.js** avatar component that displays us
 
 ## Installation
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Md-Asikuzzaman/next-avatar)
+
 You can install the package using npm or yarn or pnpm:
 
 ```sh
