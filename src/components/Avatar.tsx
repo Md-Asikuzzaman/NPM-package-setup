@@ -7,7 +7,6 @@ interface AvatarProps {
   color?: string;
   fontSize?: string;
   borderRadius?: string;
-  className?: string;
   style?: React.CSSProperties;
   defaultSrc?: string;
 }
@@ -39,9 +38,8 @@ const Avatar: React.FC<AvatarProps> = ({
   color = '#fff',
   fontSize = '1em',
   borderRadius = '50%',
-  className = '',
   style = {},
-  defaultSrc = 'https://i.pravatar.cc/50',
+  defaultSrc = 'https://i.pravatar.cc/100',
 }) => {
   const initials = generateInitials(name);
   const backgroundColor = stringToColor(name);
@@ -63,7 +61,7 @@ const Avatar: React.FC<AvatarProps> = ({
   // Show default image if neither name nor src is provided
   if (!name && !src) {
     return (
-      <div className={`avatar ${className}`} style={avatarStyle}>
+      <div style={avatarStyle}>
         <img
           src={defaultSrc}
           alt='Default Avatar'
@@ -76,7 +74,7 @@ const Avatar: React.FC<AvatarProps> = ({
   // Show initials if name is provided but no src
   if (name && !src) {
     return (
-      <div className={`avatar ${className}`} style={avatarStyle}>
+      <div style={avatarStyle}>
         <span>{initials}</span>
       </div>
     );
@@ -84,7 +82,7 @@ const Avatar: React.FC<AvatarProps> = ({
 
   // Show image if src is provided
   return (
-    <div className={`avatar ${className}`} style={avatarStyle}>
+    <div style={avatarStyle}>
       <img
         src={src}
         alt={name || 'Avatar'}

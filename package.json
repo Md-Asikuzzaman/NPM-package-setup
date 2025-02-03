@@ -1,5 +1,5 @@
 {
-  "name": "next-avatar",
+  "name": "next-avatar-test",
   "version": "1.0.0",
   "description": "A lightweight and customizable React avatar component for Next.js applications, supporting initials, images, and fallback options.",
   "main": "dist/index.js",
@@ -23,7 +23,6 @@
     "user-avatar",
     "image-avatar",
     "initials-avatar",
-    "tailwind",
     "headless"
   ],
   "author": "Md Asikuzzaman",
@@ -48,5 +47,8 @@
     "react-dom": "^18.0.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
   }
 }
